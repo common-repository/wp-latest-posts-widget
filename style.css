@@ -1,0 +1,30 @@
+.latest-posts-widget .latest-post {
+	display: flex;
+	flex-flow: row nowrap;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f2f2f2;
+	align-items: center;
+}
+.latest-posts-widget .latest-post:last-child {
+	border-bottom: none;
+}
+.latest-posts-widget .latest-post .image {
+	flex-basis: 90px;
+	flex-shrink: 0;
+}
+.latest-posts-widget .latest-post .image a {
+	width: 80px;
+	height: 80px;
+	display: block;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #f2f2f2;
+}
+.latest-posts-widget .latest-post .content .title a {
+	font-weight: bold;
+}
+.latest-posts-widget .latest-post .content .excerpt {
+	font-size: 10px;
+}
